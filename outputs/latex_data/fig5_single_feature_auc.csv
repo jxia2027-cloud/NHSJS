@@ -1,0 +1,15 @@
+feature,display_name,auc
+hemo,Hemoglobin,0.9494906621392191
+sc,Serum Creatinine,0.937818336162988
+pcv,Packed Cell Volume,0.9365449915110357
+sg,Specific Gravity,0.907258064516129
+al,Albumin,0.8548387096774194
+sod,Sodium,0.8272495755517828
+rc,Red Blood Cells,0.8155772495755519
+age,Age,0.7714346349745331
+bgr,Blood Glucose,0.7576400679117148
+bu,Blood Urea,0.7249575551782682
+bp,Blood Pressure,0.6629881154499151
+wc,White Blood Cells,0.6578947368421052
+su,Sugar Level,0.6532258064516129
+pot,Potassium,0.4505517826825127
