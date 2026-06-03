@@ -6,6 +6,7 @@ This packet is meant to be pasted or uploaded to an AI reviewer that cannot acce
 
 - Rendered PDF: `paper/build/manuscript.pdf`
 - Root PDF copy: `When_Perfect_Is_Wrong.pdf`
+- Review-copy Word document: `When_Perfect_Is_Wrong_Review_Copy.docx`
 - LaTeX source: `paper/manuscript.tex`
 - Review decision PDF: `Justin - Review Decision (1).pdf`
 - Submission guidelines PDF: `NHSJS - Submission Guidelines.pdf`
