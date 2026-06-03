@@ -174,7 +174,7 @@ def load_nhanes(path, feature_set="all"):
 
     feature_set: 'all'        - all available predictors
                  'no_egfr_acr' - removes eGFR and ACR (direct label inputs)
-                 'no_lab_surrogates' - also removes serum_creatinine (eGFR input)
+                 'no_lab_surrogates' - also removes serum_creatinine (direct eGFR surrogate)
     """
     df = pd.read_csv(path)
     df.columns = df.columns.str.lower().str.strip()
@@ -191,7 +191,7 @@ def load_nhanes(path, feature_set="all"):
         # Remove direct label-defining variables
         full_feats = [f for f in full_feats if f not in ("gfr","acr")]
     elif feature_set == "no_lab_surrogates":
-        # Also remove serum_creatinine (used to compute eGFR)
+        # Also remove serum_creatinine, which is a direct eGFR surrogate.
         full_feats = [f for f in full_feats
                       if f not in ("gfr","acr","serum_creatinine","bun")]
 
